@@ -8,7 +8,7 @@ XML definitions for MuseScore of typical colombian instruments.
 All plucked string instruments have tablature functionality included.
 
 * Bandolas
-  ** Andina
+  * Andina
   * Andina Bb
   * Alto 
   * Bajo (Baritono)
