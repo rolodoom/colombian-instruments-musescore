@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore>
+
+
+      <InstrumentGroup id="plucked-strings">
+            <name>Strings - Plucked</name>
+            <Instrument id="bandola">
+                  <longName>Bandola</longName>
+                  <shortName>Bnd.</shortName>
+                  <description>Bandola</description>
+                  <musicXMLid>pluck.bandola</musicXMLid>
+                  <StringData>
+                        <frets>17</frets>
+                        <string>54</string>
+                        <string>59</string>
+                        <string>64</string>
+                        <string>69</string>
+                        <string>74</string>
+                        <string>79</string>
+                  </StringData>
+                  <clef>G</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>54-84</aPitchRange>
+                  <pPitchRange>52-96</pPitchRange>
+                  <Channel>
+                        <program value="25"/> <!--Acoustic Guitar (steel)-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="bandola-tablature">
+                  <trackName>Bandola (Tablature)</trackName>
+                  <init>bandola</init>
+                  <description>Bandola (Tablature)</description>
+                  <musicXMLid>pluck.bandola</musicXMLid>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="bandola-Bb">
+                  <longName>Bandola Bb</longName>
+                  <shortName>Bnd.Bb.</shortName>
+                  <description>Bandola Bb</description>
+                  <musicXMLid>pluck.bandola.Bb</musicXMLid>
+                  <StringData>
+                        <frets>17</frets>
+                        <string>52</string>
+                        <string>57</string>
+                        <string>62</string>
+                        <string>67</string>
+                        <string>72</string>
+                        <string>77</string>
+                  </StringData>
+                  <clef>G</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>52-82</aPitchRange>
+                  <pPitchRange>50-94</pPitchRange>
+                  <Channel>
+                        <program value="25"/> <!--Acoustic Guitar (steel)-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="bandola-Bb-tablature">
+                  <trackName>Bandola Bb (Tablature)</trackName>
+                  <init>bandola</init>
+                  <description>Bandola Bb (Tablature)</description>
+                  <musicXMLid>pluck.bandola.Bb</musicXMLid>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="alto-bandola">
+                  <longName>Bandola Alto</longName>
+                  <shortName>Bnd.Alto</shortName>
+                  <description>Bandola Alto</description>
+                  <musicXMLid>pluck.alto-bandola</musicXMLid>
+                  <StringData>
+                        <frets>21</frets>
+                        <string>47</string>
+                        <string>52</string>
+                        <string>57</string>
+                        <string>62</string>
+                        <string>67</string>
+                        <string>72</string>
+                  </StringData>
+                  <clef>C4</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>47-77</aPitchRange>
+                  <pPitchRange>45-93</pPitchRange>
+                  <Channel>
+                        <program value="25"/> <!--Acoustic Guitar (steel)-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="alto-bandola-tablature">
+                  <trackName>Bandola Alto (Tablature)</trackName>
+                  <init>alto-bandola</init>
+                  <description>Bandola Alto (Tablature)</description>
+                  <musicXMLid>pluck.alto-bandola</musicXMLid>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="baritone-bandola">
+                  <longName>Bandola Bajo</longName>
+                  <shortName>Bnd.Bajo</shortName>
+                  <description>Bandola Bajo</description>
+                  <musicXMLid>pluck.baritone-bandola</musicXMLid>
+                  <StringData>
+                        <frets>20</frets>
+                        <string>35</string>
+                        <string>40</string>
+                        <string>45</string>
+                        <string>50</string>
+                        <string>55</string>
+                        <string>60</string>
+                  </StringData>
+                  <clef>F</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>35-65</aPitchRange>
+                  <pPitchRange>33-81</pPitchRange>
+                  <Channel>
+                        <program value="25"/> <!--Acoustic Guitar (steel)-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="baritone-bandola-tablature">
+                  <trackName>Bandola Bajo (Tablature)</trackName>
+                  <init>baritone-bandola</init>
+                  <description>Bandola Bajo (Tablature)</description>
+                  <musicXMLid>pluck.baritone-bandola</musicXMLid>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="llanera-bandola">
+                  <longName>Bandola Llanera</longName>
+                  <shortName>Bnd.Ll.</shortName>
+                  <description>Bandola Llanera</description>
+                  <musicXMLid>pluck.llanera-bandola</musicXMLid>
+                  <StringData>
+                        <frets>17</frets>
+                        <string>45</string>
+                        <string>50</string>
+                        <string>57</string>
+                        <string>64</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>45-74</aPitchRange>
+                  <pPitchRange>43-81</pPitchRange>
+                  <Channel>
+                        <program value="24"/> <!--Acoustic Guitar (nylon)-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="llanera-bandola-tablature">
+                  <trackName>Bandola Llanera (Tablature)</trackName>
+                  <init>llanera-bandola</init>
+                  <description>Bandola Llanera (Tablature)</description>
+                  <musicXMLid>pluck.llanera-bandola</musicXMLid>
+                  <stafftype staffTypePreset="tab4StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="cuatro">
+                  <longName>Cuatro</longName>
+                  <shortName>Ctr.</shortName>
+                  <description>Cuatro</description>
+                  <musicXMLid>pluck.cuatro</musicXMLid>
+                  <StringData>
+                        <frets>18</frets>
+                        <string>57</string>
+                        <string>62</string>
+                        <string>66</string>
+                        <string>59</string>
+                  </StringData>
+                  <clef>G</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>57-72</aPitchRange>
+                  <pPitchRange>50-78</pPitchRange>
+                  <Channel>
+                        <program value="24"/> <!--Acoustic Guitar (nylon)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="cuatro-tablature">
+                  <trackName>Cuatro (Tablature)</trackName>
+                  <init>cuatro</init>
+                  <description>Cuatro (Tablature)</description>
+                  <musicXMLid>pluck.cuatro</musicXMLid>
+                  <stafftype staffTypePreset="tab4StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="requinto-guitar">
+                  <longName>Guitarra Requinto</longName>
+                  <shortName>Req.Gtr.</shortName>
+                  <description>Guitarra Requinto</description>
+                  <musicXMLid>pluck.requinto-guitar</musicXMLid>
+                  <StringData>
+                        <frets>19</frets>
+                        <string>45</string>
+                        <string>50</string>
+                        <string>55</string>
+                        <string>60</string>
+                        <string>64</string>
+                        <string>69</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>45-86</aPitchRange>
+                  <pPitchRange>45-86</pPitchRange>
+                  <Channel>
+                        <program value="24"/> <!--Acoustic Guitar (nylon)-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="requinto-guitar-tablature">
+                  <trackName>Guitarra Requinto (Tablature)</trackName>
+                  <init>requinto-guitar</init>
+                  <description>Guitarra Requinto (Tablature)</description>
+                  <musicXMLid>pluck.requinto-guitar</musicXMLid>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="tiple">
+                  <longName>Tiple</longName>
+                  <shortName>Tpl.</shortName>
+                  <description>Tiple</description>
+                  <musicXMLid>pluck.tiple</musicXMLid>
+                  <StringData>
+                        <frets>18</frets>
+                        <string>50</string>
+                        <string>55</string>
+                        <string>59</string>
+                        <string>64</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>50-72</aPitchRange>
+                  <pPitchRange>50-82</pPitchRange>
+                  <Channel>
+                        <program value="6"/> <!--Harpsichord-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="tiple-tablature">
+                  <trackName>Tiple (Tablature)</trackName>
+                  <init>tiple</init>
+                  <description>Tiple (Tablature)</description>
+                  <musicXMLid>pluck.tiple</musicXMLid>
+                  <stafftype staffTypePreset="tab4StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+            </Instrument>
+      </InstrumentGroup>
+
+</museScore>
