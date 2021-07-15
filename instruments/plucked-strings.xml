@@ -48,17 +48,19 @@
                   <musicXMLid>pluck.bandola.Bb</musicXMLid>
                   <StringData>
                         <frets>17</frets>
-                        <string>52</string>
-                        <string>57</string>
-                        <string>62</string>
-                        <string>67</string>
-                        <string>72</string>
-                        <string>77</string>
+                        <string>54</string>
+                        <string>59</string>
+                        <string>64</string>
+                        <string>69</string>
+                        <string>74</string>
+                        <string>79</string>
                   </StringData>
                   <clef>G</clef>
                   <barlineSpan>1</barlineSpan>
                   <aPitchRange>52-82</aPitchRange>
                   <pPitchRange>50-94</pPitchRange>
+                  <transposeDiatonic>-1</transposeDiatonic>
+                  <transposeChromatic>-2</transposeChromatic>
                   <Channel>
                         <program value="25"/> <!--Acoustic Guitar (steel)-->
                   </Channel>
@@ -70,7 +72,7 @@
             </Instrument>
             <Instrument id="bandola-Bb-tablature">
                   <trackName>Bandola Bb (Tablature)</trackName>
-                  <init>bandola</init>
+                  <init>bandola-Bb</init>
                   <description>Bandola Bb (Tablature)</description>
                   <musicXMLid>pluck.bandola.Bb</musicXMLid>
                   <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
@@ -110,6 +112,45 @@
                   <init>alto-bandola</init>
                   <description>Bandola Alto (Tablature)</description>
                   <musicXMLid>pluck.alto-bandola</musicXMLid>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="alto-bandola-F">
+                  <longName>Bandola Alto en F</longName>
+                  <shortName>Bnd.Alto.F</shortName>
+                  <description>Bandola Alto en F</description>
+                  <musicXMLid>pluck.alto-bandola.F</musicXMLid>
+                  <StringData>
+                        <frets>21</frets>
+                        <string>42</string>
+                        <string>47</string>
+                        <string>52</string>
+                        <string>57</string>
+                        <string>62</string>
+                        <string>67</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>42-70</aPitchRange>
+                  <pPitchRange>40-86</pPitchRange>
+                  <transposeDiatonic>3</transposeDiatonic>
+                  <transposeChromatic>5</transposeChromatic>
+                  <Channel>
+                        <program value="25"/> <!--Acoustic Guitar (steel)-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="alto-bandola-tablature-F">
+                  <trackName>Bandola Alto en F (Tablature)</trackName>
+                  <init>alto-bandola-F</init>
+                  <description>Bandola Alto en F (Tablature)</description>
+                  <musicXMLid>pluck.alto-bandola.F</musicXMLid>
                   <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
                   <!--                  <clef>TAB</clef> -->
                   <genre>common</genre>
@@ -215,6 +256,45 @@
                   <description>Cuatro (Tablature)</description>
                   <musicXMLid>pluck.cuatro</musicXMLid>
                   <stafftype staffTypePreset="tab4StrCommon">tablature</stafftype>
+                  <!--                  <clef>TAB</clef> -->
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="requinto-guitar-F">
+                  <longName>Guitarra Requinto en F</longName>
+                  <shortName>Req.Gtr.F</shortName>
+                  <description>Guitarra Requinto en F</description>
+                  <musicXMLid>pluck.requinto-guitar.F</musicXMLid>
+                  <StringData>
+                        <frets>19</frets>
+                        <string>40</string>
+                        <string>45</string>
+                        <string>50</string>
+                        <string>55</string>
+                        <string>59</string>
+                        <string>64</string>
+                  </StringData>
+                  <clef>G8vb</clef>
+                  <barlineSpan>1</barlineSpan>
+                  <aPitchRange>40-81</aPitchRange>
+                  <pPitchRange>40-81</pPitchRange>
+                  <transposeDiatonic>3</transposeDiatonic>
+                  <transposeChromatic>5</transposeChromatic>
+                  <Channel>
+                        <program value="24"/> <!--Acoustic Guitar (nylon)-->
+                  </Channel>
+                  <Channel name="mute">
+                        <program value="28"/> <!--Electric Guitar (muted)-->
+                  </Channel>
+                  <genre>common</genre>
+                  <genre>world</genre>
+            </Instrument>
+            <Instrument id="requinto-guitar-tablature-F">
+                  <trackName>Guitarra Requinto en F (Tablature)</trackName>
+                  <init>requinto-guitar-F</init>
+                  <description>Guitarra Requinto en F (Tablature)</description>
+                  <musicXMLid>pluck.requinto-guitar.F</musicXMLid>
+                  <stafftype staffTypePreset="tab6StrCommon">tablature</stafftype>
                   <!--                  <clef>TAB</clef> -->
                   <genre>common</genre>
                   <genre>world</genre>
