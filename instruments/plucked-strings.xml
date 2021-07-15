@@ -86,7 +86,7 @@
                   <description>Bandola Alto</description>
                   <musicXMLid>pluck.alto-bandola</musicXMLid>
                   <StringData>
-                        <frets>21</frets>
+                        <frets>19</frets>
                         <string>47</string>
                         <string>52</string>
                         <string>57</string>
@@ -96,8 +96,8 @@
                   </StringData>
                   <clef>C4</clef>
                   <barlineSpan>1</barlineSpan>
-                  <aPitchRange>47-77</aPitchRange>
-                  <pPitchRange>45-93</pPitchRange>
+                  <aPitchRange>47-84</aPitchRange>
+                  <pPitchRange>45-91</pPitchRange>
                   <Channel>
                         <program value="25"/> <!--Acoustic Guitar (steel)-->
                   </Channel>
@@ -123,7 +123,7 @@
                   <description>Bandola Alto en F</description>
                   <musicXMLid>pluck.alto-bandola.F</musicXMLid>
                   <StringData>
-                        <frets>21</frets>
+                        <frets>19</frets>
                         <string>42</string>
                         <string>47</string>
                         <string>52</string>
@@ -133,7 +133,7 @@
                   </StringData>
                   <clef>G8vb</clef>
                   <barlineSpan>1</barlineSpan>
-                  <aPitchRange>42-70</aPitchRange>
+                  <aPitchRange>42-79</aPitchRange>
                   <pPitchRange>40-86</pPitchRange>
                   <transposeDiatonic>3</transposeDiatonic>
                   <transposeChromatic>5</transposeChromatic>
